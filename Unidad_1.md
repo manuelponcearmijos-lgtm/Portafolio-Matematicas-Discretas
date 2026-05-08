@@ -43,7 +43,7 @@ Las tablas de verdad muestran todas las combinaciones posibles de valores (V o F
 <details>
 <summary><b>🔹 Principales leyes lógicas</b></summary>
 <blockquote>
-Incluyen leyes como la **conmutativa**, **asociativa**, **distributiva**, **doble negación** y **De Morgan**.  
+Incluyen leyes como la conmutativa, asociativa, distributiva, doble negación y de Morgan.  
 Ejemplo: ¬(P ∧ Q) ≡ (¬P ∨ ¬Q)
 </blockquote>
 </details>
