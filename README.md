@@ -22,7 +22,8 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/alisonramivilla-arch/Portafolio-Digital-Teoria-De-La-Programacion/main/imagenes/matematicas_discretas.png" width="600" alt="Código y aprendizaje">
+<img src="https://github.com/user-attachments/assets/80bc5c54-e0ba-418f-b243-28adf32a28e2" />
+" width="600" alt="Código y aprendizaje">
 
 🧩 *Haz clic en la imagen o en los botones superiores para ver el contenido detallado.*
 
