@@ -199,15 +199,19 @@ Las reglas de inferencia son principios que permiten obtener conclusiones válid
 
 <details>
   <summary><b>🔣 Ejercicio 1: Traducción de lenguaje natural a simbólico</b></summary>
+  **🏠 Ejercicio 1: Clima**  
+  
+  ![Ejercicio 1]( https://github.com/user-attachments/assets/4f85d261-6cc5-4a30-b69d-42c9b536c7ce)
 
-  ![Ejercicio 1](./Evidencias/ejercicio1.png)
+  ![Ejercicio 2](./Evidencias/ejercicio1.png)
 
-  **Procedimiento paso a paso:**
-  1. ...
-  2. ...
-  3. ...
-</details>
+  ![Ejercicio 3](./Evidencias/ejercicio1.png)
 
+  ![Ejercicio 4](./Evidencias/ejercicio1.png)
+
+  ![Ejercicio 5](./Evidencias/ejercicio1.png)
+
+ 
 <details>
   <summary><b>📊 Ejercicio 2: Construcción de tablas de verdad</b></summary>
 
