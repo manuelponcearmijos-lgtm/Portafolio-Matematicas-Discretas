@@ -229,14 +229,24 @@ Las reglas de inferencia son principios que permiten obtener conclusiones válid
  
 ### 📊 Ejercicio 2: Tablas de verdad
 
+🟩 Ejercicio 1:
+
 ![Ejercicio2a](https://github.com/user-attachments/assets/8ce4e2f2-f3dd-49f6-ac99-e32306125f49)
 
+🟦 Ejercicio 2:
+
 ![Ejercicio2b](https://github.com/user-attachments/assets/c6739bb3-4b5f-4e21-b54e-e0702848c8cc)
- 
+
+🟥 Ejercicio 3:
+
 ![Ejercicio2c](https://github.com/user-attachments/assets/d7981ba9-280b-4b73-8e45-01325cdcb9c6)
- 
+
+🟧 Ejercicio 4:
+
 ![Ejercicio2d](https://github.com/user-attachments/assets/95862d4d-b3da-4a9c-987e-1b2779575f17)
- 
+
+🟨 Ejercicio 5:
+
 ![Ejercicio2e](https://github.com/user-attachments/assets/4f4c3ade-19a8-4941-9e43-ee05c38713dd)
 
 
@@ -251,13 +261,24 @@ Las reglas de inferencia son principios que permiten obtener conclusiones válid
 
 ### 🧮 Ejercicio 3: Tautologías y contradicciones
  
+
+🟩 Ejercicio 1:
+
 ![Ejercicio3a](https://github.com/user-attachments/assets/ffab05a6-8560-4432-8aa2-2649844dcec9)
  
+🟦 Ejercicio 2:
+
 ![Ejercicio3b](https://github.com/user-attachments/assets/01514f70-ca5c-4f95-b34a-b1b3bcd87812)
+
+🟥 Ejercicio 3:
 
 ![Ejercicio2c](https://github.com/user-attachments/assets/1f5316e9-5231-4e38-9ee9-4f2c7fad61a3)
 
+🟧 Ejercicio 4:
+
 ![Ejercicio2d](https://github.com/user-attachments/assets/3d0adb08-0b09-401b-9358-780520c6fc84)
+
+🟨 Ejercicio 5:
 
 ![Ejercicio2e](https://github.com/user-attachments/assets/4a0662f7-f530-4e68-a632-3e6df103e712) 
 
@@ -271,11 +292,26 @@ Las reglas de inferencia son principios que permiten obtener conclusiones válid
 ---
 
 ### 🧷 Ejercicio 4: Leyes proposicionales
-![Ejercicio4a](./Evidencias/ejercicio4a.png)
-![Ejercicio4b](./Evidencias/ejercicio4b.png)
-![Ejercicio4c](./Evidencias/ejercicio4c.png)
-![Ejercicio4d](./Evidencias/ejercicio4d.png)
-![Ejercicio4e](./Evidencias/ejercicio4e.png)
+
+🟩 Ejercicio 1: 
+
+![Ejercicio4a](https://github.com/user-attachments/assets/69c1a547-8c6f-499f-a173-d5ff4edf93b8) 
+
+🟦 Ejercicio 2:
+
+![Ejercicio4b](https://github.com/user-attachments/assets/c45bc3d7-e49d-4e23-893f-d0185529c6d1)
+ 
+🟥 Ejercicio 3:
+
+![Ejercicio4c](https://github.com/user-attachments/assets/1efabd59-149b-4de6-ac9b-b52de66e7e02)
+
+🟧 Ejercicio 4:
+
+![Ejercicio4d](https://github.com/user-attachments/assets/85457131-e8a7-4dc9-aa5b-f8c76fd1887b)
+ 
+🟨 Ejercicio 5:
+
+![Ejercicio4e](https://github.com/user-attachments/assets/6e2731d4-8206-4106-b8cd-b59988ebff4b)
 
 **Procedimiento paso a paso:**
 1. Identificar la fórmula original.  
@@ -287,18 +323,45 @@ Las reglas de inferencia son principios que permiten obtener conclusiones válid
 ---
 
 ### ✅ Ejercicio 5: Validación de argumentos
-![Ejercicio5a](./Evidencias/ejercicio5a.png)
-![Ejercicio5b](./Evidencias/ejercicio5b.png)
-![Ejercicio5c](./Evidencias/ejercicio5c.png)
-![Ejercicio5d](./Evidencias/ejercicio5d.png)
-![Ejercicio5e](./Evidencias/ejercicio5e.png)
+
+🟩 Ejercicio 1: 
+
+![Ejercicio5a](https://github.com/user-attachments/assets/6b22ace7-cd23-45bb-894b-ffb1d6a81dc4)
+
+![Ejercicio5a](https://github.com/user-attachments/assets/47f16fbf-afa5-40fc-9744-6f214e9602eb)
+
+🟦 Ejercicio 2:  
+
+![Ejercicio5b](https://github.com/user-attachments/assets/e3bdb095-caaa-4afb-a552-cc4e05850d7f)
+
+![Ejercicio5b](https://github.com/user-attachments/assets/7d4220ca-c3db-4ad6-8b54-a2082a394bb8)
+
+ 
+🟥 Ejercicio 3:
+
+![Ejercicio5c](https://github.com/user-attachments/assets/6b1ff9eb-528f-4a34-9f54-6137148d598c)
+
+![Ejercicio5c](https://github.com/user-attachments/assets/008e8aac-8e20-4750-b401-962c74c6a2c4)
+
+🟧 Ejercicio 4:
+ 
+![Ejercicio5d](https://github.com/user-attachments/assets/e1d2e893-6c14-44f5-a738-2f4f9b18fcfe)
+
+![Ejercicio5d](https://github.com/user-attachments/assets/26ac7f0e-c92c-48c1-b874-74cded75d61e)
+
+🟨 Ejercicio 5:
+ 
+![Ejercicio5e](https://github.com/user-attachments/assets/cc4bc9f7-bff0-4423-a3f4-7f5082f15de5)
+
+![Ejercicio5e](https://github.com/user-attachments/assets/30eea1f0-f444-4c36-be32-b337423d0105)
+
 
 **Procedimiento paso a paso:**
 1. Escribir las premisas.  
 2. Representarlas simbólicamente.  
 3. Construir la tabla de verdad.  
 4. Evaluar si la conclusión se cumple siempre que las premisas sean verdaderas.  
-5. Determinar validez del argumento.  
+5. Determinar validez del a argumento.  
 
 
 ## 3. 🧠 Ejercicio Aplicado (Caso Real)
