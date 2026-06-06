@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://unl.edu.ec/sites/default/files/logogris%20copia.png" width="350" alt="Logo UNL">
 </p>
-
+ 
 <h1 align="center">🌟 Universidad Nacional de Loja 🌟</h1>
 <h3 align="center">💻 Carrera de Computación</h3>
 <h4 align="center">📘 Matemáticas Discretas</h4>
