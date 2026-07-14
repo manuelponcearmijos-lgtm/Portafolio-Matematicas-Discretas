@@ -38,3 +38,11 @@ La política de acceso establece: *"Se permite el ingreso si el usuario presenta
 
 - Una compuerta **OR** de 2 entradas recibe `B` y `C`, produciendo `B + C`.
 - Una compuerta **AND** de 2 entradas recibe `A` y la salida de la compuerta OR anterior, produciendo `F`.
+  
+## Análisis de resultados
+
+La simplificación demuestra que, sin importar cómo se redactó originalmente la política de acceso, el sistema físico solo necesita **una compuerta OR y una compuerta AND**, en lugar de las dos compuertas AND y una OR que sugeriría la expresión original sin simplificar. Esto reduce el costo del circuito y el tiempo de respuesta del sistema de acceso, sin alterar en absoluto su comportamiento lógico (ambas expresiones producen exactamente la misma tabla de verdad).
+
+## Conclusión
+
+Este caso demuestra que el álgebra de Boole no es un ejercicio abstracto: permite tomar una política de seguridad redactada en lenguaje natural, formalizarla, verificarla mediante una tabla de verdad y optimizar directamente el hardware que la implementa.
