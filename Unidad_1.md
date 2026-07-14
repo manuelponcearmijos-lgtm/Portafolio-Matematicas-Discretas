@@ -411,7 +411,7 @@ Las reglas de inferencia son principios que permiten obtener conclusiones válid
   | F       | V          | F             | V       |
   | V       | F          | F             | V       |
   | F       | F          | F             | V       |
-
+ 
   </div>
 </details>
 
