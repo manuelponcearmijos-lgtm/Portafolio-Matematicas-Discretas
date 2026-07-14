@@ -1,6 +1,8 @@
-# Resumen Teórico — Álgebra de Boole
+# 📘 Resumen Teórico — Álgebra de Boole
 
 ## 1. 🧠Propiedades del Álgebra de Boole
+
+<p>✍️ <i>Elaborado por el estudiante</i></p>
 
 El álgebra de Boole es un sistema matemático que opera sobre dos únicos valores (0 y 1), y sobre el que se definen tres operaciones fundamentales: la suma lógica (OR, `+`), el producto lógico (AND, `·`) y el complemento (NOT, `'`). Sus propiedades fundamentales son:
 
