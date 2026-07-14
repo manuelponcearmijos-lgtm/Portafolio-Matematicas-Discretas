@@ -27,9 +27,17 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 </details>
 
 <details>
-<summary><b>📂 Unidad 2: Conjuntos, Relaciones y Funciones</b></summary>
+<summary><b>📂 Unidad 2:Al</b></summary>
 
-*Contenido en desarrollo conforme avance el periodo académico.*
+ Consolidar el aprendizaje del álgebra booleana mediante la elaboración de un portafolio que evidencie comprensión teórica, desarrollo de ejercicios y aplicación práctica de:
+
+- Propiedades del Álgebra de Boole
+- Teoremas del Álgebra de Boole
+- Simplificación de expresiones booleanas
+- Formas canónicas
+- Mapas de Karnaugh (K-Map)
+- Método algebraico de simplificación
+- Implementación con compuertas lógicas
 
 [![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](./Unidad_2.md)
 </details>
