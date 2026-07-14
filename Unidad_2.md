@@ -87,5 +87,5 @@ Todos los archivos se encuentran alojados en el repositorio de **Google Drive** 
 
 | 🧩 **Actividad** | 📘 **Recurso** | 🔗 **Enlace Directo** |
 |------------------|----------------|------------------------|
-| 📂 Carpeta General | Todos los APE (1 al 5) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1QxW70n9aSkWdld3s3loON6Rw6OObadYJ?usp=drive_link) |
+| 📂 Carpeta General | Todos los APE (1 al 5) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1gAqTEbOsfxQ0P-rRtMIZEBRdedxNPmRw?usp=sharing) |
 
