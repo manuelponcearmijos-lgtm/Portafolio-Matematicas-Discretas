@@ -66,14 +66,26 @@ La cantidad de compuertas y de entradas necesarias depende directamente del nive
 
 ## 4. 🔍 Reflexión Personal
 
-## ¿Qué fue lo más difícil de entender?
+## 🤔¿Qué fue lo más difícil de entender?
 
 Al inicio, la parte más difícil fue reconocer cuándo aplicar el teorema de consenso frente a simplemente factorizar o usar absorción, ya que varias reducciones pueden llevar al mismo resultado por caminos distintos, y no siempre es obvio cuál es el camino más corto. También costó, en un primer momento, construir correctamente los mapas de Karnaugh de 4 variables, especialmente identificar agrupaciones que "envuelven" los bordes del mapa (donde la primera y la última columna, o la primera y la última fila, también se consideran adyacentes).
 
-## ¿Qué tema comprendí mejor?
+## 😎¿Qué tema comprendí mejor?
 
 El tema que comprendí con mayor claridad fue la relación entre las formas canónicas (SOP y POS) y la tabla de verdad: una vez que se entiende que cada minitérmino corresponde exactamente a una fila donde la función vale 1, construir la forma canónica se vuelve casi mecánico. A partir de ahí, entender por qué el mapa de Karnaugh funciona (agrupando minitérminos adyacentes) resultó mucho más intuitivo.
 
-## ¿Cómo puedo aplicar el álgebra de Boole en mi carrera?
+## 🤯¿Cómo puedo aplicar el álgebra de Boole en mi carrera?
 
 El álgebra de Boole es la base matemática detrás del diseño de circuitos digitales, por lo que resulta directamente aplicable en asignaturas como electrónica digital, arquitectura de computadoras y diseño de sistemas embebidos. Más allá del hardware, los mismos principios de simplificación lógica se aplican al escribir condiciones eficientes en programación (por ejemplo, simplificar una expresión `if` compleja usando las mismas leyes de Boole), optimizar consultas de bases de datos y diseñar reglas de automatización en sistemas de control industrial.
+
+---
+ 
+## 📁 Anexos: Aprendizaje Práctico Experimental (APE)
+
+A continuación se presentan los enlaces a las actividades prácticas desarrolladas.  
+Todos los archivos se encuentran alojados en el repositorio de **Google Drive** de la asignatura:
+
+| 🧩 **Actividad** | 📘 **Recurso** | 🔗 **Enlace Directo** |
+|------------------|----------------|------------------------|
+| 📂 Carpeta General | Todos los APE (1 al 5) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1QxW70n9aSkWdld3s3loON6Rw6OObadYJ?usp=drive_link) |
+
