@@ -1,4 +1,4 @@
-# 🧩 Contenido del Portafolio – Matemáticas Discretas
+# 🧩 Contenido del Portafolio – Matemáticas Discretas 
 
 ---
  <h2>📘 1. Resumen Teórico</h2>
