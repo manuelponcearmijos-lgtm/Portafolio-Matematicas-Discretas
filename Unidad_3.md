@@ -668,5 +668,5 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 | 🔬 APE (Aprendizaje Práctico Experimental) | 📎 Carpeta APE |
 | 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
 | 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
-| 🗂️ Portafolio General | 📎 Documentos y anexos |
+
 
