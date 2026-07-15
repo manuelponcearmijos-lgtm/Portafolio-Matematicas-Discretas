@@ -1,13 +1,40 @@
-# Unidad 3 — Grafos y Árboles
+ <div align="center">
 
-> Matemáticas Discretas · Portafolio de Unidad 3
-> Enfoque: fundamentos teóricos, algoritmos, representación computacional y aplicaciones en Ciencias de la Computación.
+# 🕸️🌳 Unidad 3 — Grafos y Árboles 🌳🕸️
+
+### *Matemáticas Discretas · Portafolio Académico*
+
+![Tema](https://img.shields.io/badge/Tema-Teor%C3%ADa%20de%20Grafos-2ea44f?style=for-the-badge&logo=graphql&logoColor=white)
+![Tema](https://img.shields.io/badge/Tema-%C3%81rboles-1f6feb?style=for-the-badge&logo=git&logoColor=white)
+![Nivel](https://img.shields.io/badge/Nivel-Universitario-8250df?style=for-the-badge&logo=bookstack&logoColor=white)
+![Formato](https://img.shields.io/badge/Formato-Markdown-orange?style=for-the-badge&logo=markdown&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Completo-success?style=for-the-badge&logo=checkmarx&logoColor=white)
+
+</div>
+
+> 💡 **Enfoque del documento:** fundamentos teóricos, algoritmos, representación computacional y aplicaciones reales en Ciencias de la Computación, con pseudocódigo, ejemplos resueltos paso a paso y comparativas visuales.
+
+<div align="center">
+
+`🔷 Fundamentos`  •  `🧩 Clasificación`  •  `🗂️ Representación`  •  `🧭 Recorridos`  •  `🛣️ Caminos Mínimos`  •  `🚰 Flujo Máximo`  •  `🎨 Coloreo`  •  `🌉 Puentes`  •  `⚖️ Árboles Especiales`
+
+</div>
 
 ---
 
-# GRAFOS
+<div align="center">
 
-## 1. Fundamentos de los Grafos
+### 🕸️ P A R T E   I — G R A F O S 🕸️
+
+*"Un mapa de relaciones donde cada línea cuenta una conexión."*
+
+</div>
+
+---
+
+# 🕸️ GRAFOS
+
+## 1. 🔷 Fundamentos de los Grafos
 
 ### 1.1 Idea intuitiva
 
@@ -17,6 +44,7 @@ Esta abstracción es poderosa porque **cualquier sistema de relaciones binarias*
 
 ### 1.2 Definición formal
 
+> [!NOTE]
 > **Definición.** Un **grafo** es un par ordenado $G = (V, E)$, donde:
 > - $V$ es un conjunto finito y no vacío de elementos llamados **vértices** (o **nodos**).
 > - $E$ es un conjunto de pares de vértices llamados **aristas** (o **arcos**), que representan relaciones entre elementos de $V$.
@@ -48,7 +76,7 @@ Notación habitual: $G = (V, E)$, con $|V| = n$ (orden del grafo) y $|E| = m$ (t
 
 ### 1.4 Propiedades fundamentales
 
-**Lema del apretón de manos (Handshaking Lemma).** En todo grafo no dirigido, la suma de los grados de todos los vértices es igual al doble del número de aristas:
+🏆 **Lema del apretón de manos (Handshaking Lemma).** En todo grafo no dirigido, la suma de los grados de todos los vértices es igual al doble del número de aristas:
 
 $$\sum_{v \in V} \deg(v) = 2|E|$$
 
@@ -64,6 +92,7 @@ Consideremos $G = (V, E)$ con:
 - $V = \{A, B, C, D, E\}$
 - $E = \{(A,B), (A,C), (B,C), (C,D), (D,E)\}$
 
+> [!TIP]
 > 📌 **Figura sugerida:** Grafo no dirigido con cinco vértices (A, B, C, D, E) y cinco aristas, mostrando un triángulo A-B-C y una rama C-D-E.
 
 Calculando grados:
@@ -87,7 +116,7 @@ Verificación del lema: $2+2+3+2+1 = 10 = 2 \times 5 = 2|E|$ ✅. Además, hay e
 
 ---
 
-## 2. Clasificación de los Grafos
+## 2. 🧩 Clasificación de los Grafos
 
 Los grafos se clasifican según distintos criterios estructurales. Comprender esta taxonomía es esencial porque **el algoritmo correcto a aplicar depende directamente del tipo de grafo**.
 
@@ -119,6 +148,7 @@ $$|E| = \binom{n}{2} = \frac{n(n-1)}{2}$$
 
 **Grafo bipartito:** el conjunto de vértices puede particionarse en dos subconjuntos disjuntos $V_1$ y $V_2$ tales que toda arista conecta un vértice de $V_1$ con uno de $V_2$ (nunca dentro del mismo subconjunto). Se denota $G = (V_1 \cup V_2, E)$. Un grafo bipartito completo se denota $K_{m,n}$.
 
+> [!TIP]
 > 📌 **Figura sugerida:** Grafo bipartito con conjunto V1 = {trabajadores} y V2 = {tareas}, ilustrando un problema de asignación.
 
 ### 2.5 Según la conectividad
@@ -156,12 +186,13 @@ En grafos dirigidos se distingue:
 
 ---
 
-## 3. Representación de Grafos
+## 3. 🗂️ Representación de Grafos
 
 La forma en que representamos un grafo en memoria determina directamente la **eficiencia** de los algoritmos que operarán sobre él. Existen dos representaciones clásicas: **matriz de adyacencia** y **lista de adyacencia**.
 
 ### 3.1 Matriz de adyacencia
 
+> [!NOTE]
 > **Definición.** Dado un grafo $G = (V, E)$ con $|V| = n$, la matriz de adyacencia es una matriz $A$ de tamaño $n \times n$ donde:
 >
 > $$A[i][j] = \begin{cases} 1 \text{ (o } w(i,j)\text{ si es ponderado)} & \text{si } (i,j) \in E \\ 0 & \text{en caso contrario} \end{cases}$$
@@ -198,6 +229,7 @@ En un grafo **no dirigido**, la matriz es simétrica: $A[i][j] = A[j][i]$. En un
 
 ### 3.2 Lista de adyacencia
 
+> [!NOTE]
 > **Definición.** Estructura donde cada vértice $v \in V$ almacena una lista (o conjunto) con los vértices adyacentes a él. Formalmente, se define una función $\text{Adj}: V \rightarrow \mathcal{P}(V)$.
 
 **Ejemplo** (mismo grafo anterior):
@@ -243,7 +275,7 @@ En un grafo ponderado, cada elemento de la lista almacena el par (vecino, peso):
 
 ---
 
-## 4. Recorridos en Grafos
+## 4. 🧭 Recorridos en Grafos
 
 Un **recorrido** (o *traversal*) es un procedimiento sistemático para visitar todos los vértices de un grafo alcanzables desde un vértice origen. Los dos algoritmos fundamentales son **BFS** (recorrido en anchura) y **DFS** (recorrido en profundidad); a partir de ellos se derivan procedimientos para detectar **componentes conexas** y calcular el **orden topológico**.
 
@@ -407,6 +439,7 @@ Mismo grafo que el ejemplo de BFS. Origen: $A$. Suponiendo que los vecinos se ex
 
 ### 4.4 Componentes Conexas
 
+> [!NOTE]
 > **Definición.** Una **componente conexa** de un grafo no dirigido es un subgrafo maximal en el cual existe un camino entre cualquier par de vértices.
 
 **Procedimiento:** se recorre el grafo (con BFS o DFS) desde cada vértice no visitado; cada recorrido completo desde un vértice inicial descubre exactamente una componente conexa.
@@ -441,6 +474,7 @@ Fin
 
 ### 4.5 Orden Topológico
 
+> [!NOTE]
 > **Definición.** Un **orden topológico** de un DAG (grafo dirigido acíclico) es una ordenación lineal de sus vértices tal que, para toda arista dirigida $(u, v)$, el vértice $u$ aparece antes que $v$ en la secuencia.
 
 **Condición de existencia:** un orden topológico existe **si y solo si** el grafo dirigido es acíclico. Si el grafo contiene un ciclo, es imposible ordenar linealmente sus vértices respetando todas las dependencias.
@@ -486,6 +520,7 @@ La clave del algoritmo es que un vértice se coloca en la pila **solo después d
 
 DAG que representa prerrequisitos de materias universitarias: $\text{Cálculo I} \rightarrow \text{Cálculo II}$, $\text{Cálculo I} \rightarrow \text{Física I}$, $\text{Física I} \rightarrow \text{Física II}$, $\text{Cálculo II} \rightarrow \text{Física II}$.
 
+> [!TIP]
 > 📌 **Figura sugerida:** DAG con cuatro nodos (Cálculo I, Cálculo II, Física I, Física II) mostrando flechas de prerrequisito.
 
 Aplicando DFS desde Cálculo I: se visita Cálculo II, desde allí Física II (se finaliza y apila), se regresa y finaliza Cálculo II (se apila), se regresa a Cálculo I, se visita Física I (Física II ya visitada, no se reprocesa), se finaliza y apila Física I, finalmente se apila Cálculo I.
@@ -503,10 +538,11 @@ Aplicando DFS desde Cálculo I: se visita Cálculo II, desde allí Física II (s
 
 ---
 
-## 5. Árboles de Expansión Mínima (MST)
+## 5. 🌲 Árboles de Expansión Mínima (MST)
 
 ### 5.1 Concepto
 
+> [!NOTE]
 > **Definición.** Dado un grafo conexo, no dirigido y ponderado $G = (V, E, w)$, un **árbol de expansión** (*spanning tree*) es un subgrafo que:
 > 1. Incluye **todos** los vértices de $G$.
 > 2. Es un **árbol** (conexo y acíclico), por lo que contiene exactamente $|V| - 1$ aristas.
@@ -536,6 +572,7 @@ $V = \{A, B, C, D, E\}$
 
 Aristas con peso: $A$–$B$ (2), $A$–$C$ (3), $B$–$C$ (1), $B$–$D$ (4), $C$–$D$ (5), $C$–$E$ (6), $D$–$E$ (7).
 
+> [!TIP]
 > 📌 **Figura sugerida:** Grafo ponderado con cinco vértices (A–E) y siete aristas etiquetadas con sus pesos.
 
 ### 5.4 Algoritmo de Prim
@@ -661,7 +698,7 @@ Ambos algoritmos, aplicados al mismo grafo, produjeron **exactamente el mismo MS
 
 ---
 
-## 6. Algoritmos de Camino Mínimo
+## 6. 🛣️ Algoritmos de Camino Mínimo
 
 Estos algoritmos resuelven un problema distinto al del MST: en lugar de minimizar el costo total de conectar todos los vértices, buscan el **camino de menor costo entre vértices específicos**.
 
@@ -903,17 +940,19 @@ Grafo dirigido pequeño: $V=\{1,2,3\}$; aristas: $1\to2$(3), $2\to3$(1), $1\to3$
 
 ---
 
-## 7. Caminos y Ciclos Especiales
+## 7. 🔁 Caminos y Ciclos Especiales
 
 ### 7.1 Camino y Ciclo Euleriano
 
+> [!NOTE]
 > **Definición (Camino Euleriano).** Un **camino euleriano** es un recorrido que atraviesa **cada arista del grafo exactamente una vez** (los vértices sí pueden repetirse).
 >
+> [!NOTE]
 > **Definición (Ciclo Euleriano).** Es un camino euleriano que además **comienza y termina en el mismo vértice**.
 
 **Origen histórico:** este concepto nace del célebre problema de los **Siete Puentes de Königsberg**, resuelto por Leonhard Euler en 1736, considerado el punto de partida de la Teoría de Grafos como disciplina formal.
 
-**Condición de existencia (Teorema de Euler):**
+🏆 **Condición de existencia (Teorema de Euler):**
 - Un grafo conexo no dirigido tiene un **ciclo euleriano** si y solo si **todos** sus vértices tienen grado par.
 - Un grafo conexo no dirigido tiene un **camino euleriano** (no cíclico) si y solo si tiene **exactamente dos** vértices de grado impar (el recorrido debe iniciar en uno de ellos y terminar en el otro).
 - Si tiene más de dos vértices de grado impar, **no existe** ningún camino euleriano.
@@ -922,13 +961,15 @@ Grafo dirigido pequeño: $V=\{1,2,3\}$; aristas: $1\to2$(3), $2\to3$(1), $1\to3$
 
 ### 7.2 Camino y Ciclo Hamiltoniano
 
+> [!NOTE]
 > **Definición (Camino Hamiltoniano).** Un **camino hamiltoniano** visita **cada vértice del grafo exactamente una vez** (las aristas pueden no usarse todas).
 >
+> [!NOTE]
 > **Definición (Ciclo Hamiltoniano).** Es un camino hamiltoniano que regresa al vértice inicial, formando un ciclo.
 
 A diferencia del caso euleriano, **no existe un criterio simple y eficiente** (necesario y suficiente) para determinar si un grafo arbitrario posee un ciclo hamiltoniano. De hecho, el **problema del ciclo hamiltoniano es NP-completo**: no se conoce ningún algoritmo que lo resuelva en tiempo polinomial para el caso general.
 
-Existen condiciones **suficientes** (no necesarias) conocidas, como el **Teorema de Dirac**: si $G$ es un grafo simple con $n \geq 3$ vértices y todo vértice tiene grado $\geq n/2$, entonces $G$ tiene un ciclo hamiltoniano.
+Existen condiciones **suficientes** (no necesarias) conocidas, como el 🏆 **Teorema de Dirac**: si $G$ es un grafo simple con $n \geq 3$ vértices y todo vértice tiene grado $\geq n/2$, entonces $G$ tiene un ciclo hamiltoniano.
 
 ### 7.3 Diferencias clave
 
@@ -956,10 +997,11 @@ Grados: $A=3$, $B=2$, $C=3$, $D=2$. Hay exactamente dos vértices de grado impar
 
 ---
 
-## 8. Flujo Máximo
+## 8. 🚰 Flujo Máximo
 
 ### 8.1 Redes de flujo
 
+> [!NOTE]
 > **Definición.** Una **red de flujo** es un grafo dirigido y ponderado $G=(V,E)$ donde cada arista $(u,v)$ tiene una **capacidad** $c(u,v) \geq 0$, y existen dos vértices distinguidos: la **fuente** $s$ (origen del flujo) y el **sumidero** $t$ (destino del flujo).
 
 Un **flujo** $f$ es una función que asigna a cada arista un valor $f(u,v)$ sujeto a dos restricciones:
@@ -970,9 +1012,10 @@ $$\sum_{u} f(u,v) = \sum_{w} f(v,w)$$
 
 ### 8.2 Flujo máximo
 
+> [!NOTE]
 > **Definición.** El **flujo máximo** es el mayor valor posible de flujo neto que puede enviarse desde $s$ hasta $t$ respetando las capacidades de la red.
 
-**Teorema de Max-Flow Min-Cut (flujo máximo — corte mínimo):** el valor del flujo máximo de $s$ a $t$ es igual a la capacidad del **corte mínimo** de la red (la partición del grafo en dos conjuntos, uno con $s$ y otro con $t$, cuya suma de capacidades de aristas que cruzan de un lado a otro es mínima). Este teorema, demostrado por Ford y Fulkerson, conecta el problema de optimización con un problema de partición estructural.
+🏆 **Teorema de Max-Flow Min-Cut (flujo máximo — corte mínimo):** el valor del flujo máximo de $s$ a $t$ es igual a la capacidad del **corte mínimo** de la red (la partición del grafo en dos conjuntos, uno con $s$ y otro con $t$, cuya suma de capacidades de aristas que cruzan de un lado a otro es mínima). Este teorema, demostrado por Ford y Fulkerson, conecta el problema de optimización con un problema de partición estructural.
 
 ### 8.3 Algoritmo de Ford-Fulkerson
 
@@ -1040,6 +1083,7 @@ Fin
 
 Red de flujo: fuente $S$, sumidero $T$, vértices intermedios $A$, $B$. Capacidades: $S\to A$(10), $S\to B$(5), $A\to B$(3), $A\to T$(4), $B\to T$(9).
 
+> [!TIP]
 > 📌 **Figura sugerida:** Red de flujo dirigida con fuente S, sumidero T y nodos intermedios A y B, etiquetada con capacidades.
 
 **Iteración 1 (BFS encuentra S→A→T):** cuello de botella = $\min(10,4) = 4$. Se asigna flujo 4 en S→A y A→T. Flujo acumulado: 4.
@@ -1066,21 +1110,23 @@ Red de flujo: fuente $S$, sumidero $T$, vértices intermedios $A$, $B$. Capacida
 
 ---
 
-## 9. Coloreo de Grafos
+## 9. 🎨 Coloreo de Grafos
 
 ### 9.1 Concepto
 
+> [!NOTE]
 > **Definición.** El **coloreo de vértices** de un grafo $G=(V,E)$ consiste en asignar un color a cada vértice de tal manera que **dos vértices adyacentes nunca compartan el mismo color**.
 
 ### 9.2 Número cromático
 
+> [!NOTE]
 > **Definición.** El **número cromático** $\chi(G)$ es el **mínimo** número de colores necesarios para colorear correctamente los vértices de $G$.
 
 **Propiedades:**
 - $\chi(G) = 1$ si y solo si $G$ no tiene aristas.
 - $\chi(G) = 2$ si y solo si $G$ es bipartito y tiene al menos una arista.
 - Para el grafo completo: $\chi(K_n) = n$.
-- **Teorema de los cuatro colores:** todo grafo planar (que puede dibujarse en el plano sin que las aristas se crucen) tiene $\chi(G) \leq 4$. Este célebre teorema, demostrado en 1976 con asistencia computacional, resolvió un problema abierto por más de un siglo.
+- 🏆 **Teorema de los cuatro colores:** todo grafo planar (que puede dibujarse en el plano sin que las aristas se crucen) tiene $\chi(G) \leq 4$. Este célebre teorema, demostrado en 1976 con asistencia computacional, resolvió un problema abierto por más de un siglo.
 - Determinar $\chi(G)$ de forma exacta para un grafo arbitrario es un **problema NP-difícil**; en la práctica se recurre a algoritmos voraces (heurísticos) que no siempre garantizan el óptimo.
 
 ### 9.3 Algoritmo voraz de coloreo (heurística)
@@ -1114,7 +1160,7 @@ Grafo ciclo $C_5$ (pentágono): $A-B-C-D-E-A$. Al ser un ciclo de longitud impar
 
 ---
 
-## 10. Puentes y Puntos de Articulación
+## 10. 🌉 Puentes y Puntos de Articulación
 
 ### 10.1 Definiciones
 
@@ -1197,6 +1243,7 @@ Los puentes y puntos de articulación identifican los **elementos críticos de r
 
 Grafo: $A-B$, $B-C$, $C-A$ (triángulo), $C-D$, $D-E$.
 
+> [!TIP]
 > 📌 **Figura sugerida:** Grafo con un triángulo A-B-C conectado mediante un "puente" C-D a una rama D-E.
 
 Aplicando el algoritmo: dentro del triángulo A-B-C, cualquier arista tiene una vía alterna (las otras dos aristas del ciclo), por lo que **ninguna** de esas tres aristas es puente. En cambio, la arista $C-D$ es la **única** conexión entre {A,B,C} y {D,E}: al eliminarla, el grafo se desconecta en dos componentes. Del mismo modo, $D-E$ es puente (única conexión de E). 
@@ -1213,7 +1260,7 @@ Aplicando el algoritmo: dentro del triángulo A-B-C, cualquier arista tiene una 
 
 ---
 
-## 11. Aplicaciones de los Grafos
+## 11. 🚀 Aplicaciones de los Grafos
 
 La Teoría de Grafos constituye una de las herramientas de modelado más transversales en Ciencias de la Computación. A continuación se sintetizan sus aplicaciones más relevantes por dominio:
 
@@ -1234,9 +1281,22 @@ La Teoría de Grafos constituye una de las herramientas de modelado más transve
 
 ---
 
-# ÁRBOLES
+<div align="center">
 
-## 12. Fundamentos de los Árboles
+### 🌳 P A R T E   I I — Á R B O L E S 🌳
+
+*"Jerarquías que crecen desde una raíz hacia infinitas posibilidades."*
+
+![Progreso](https://img.shields.io/badge/Progreso-Grafos%20✔️%20Completado-2ea44f?style=flat-square)
+![Progreso](https://img.shields.io/badge/Progreso-%C3%81rboles%20▶️%20En%20curso-1f6feb?style=flat-square)
+
+</div>
+
+---
+
+# 🌳 ÁRBOLES
+
+## 12. 🌱 Fundamentos de los Árboles
 
 ### 12.1 Idea intuitiva
 
@@ -1246,10 +1306,12 @@ Esta estructura es fundamental en computación porque modela de forma natural la
 
 ### 12.2 Definición formal
 
+> [!NOTE]
 > **Definición.** Un **árbol** es un grafo no dirigido $T=(V,E)$ que es **conexo** y **acíclico**. Equivalentemente, un árbol con $n$ vértices tiene exactamente $n-1$ aristas, y existe un **único camino simple** entre cualquier par de vértices.
 
 Estas tres condiciones son **equivalentes** entre sí (cualquiera de ellas, junto con la conexidad y el número correcto de aristas, implica las demás); esta es una propiedad fundamental que suele demostrarse formalmente en cursos de teoría de grafos.
 
+> [!NOTE]
 > **Definición (Árbol con raíz).** Un **árbol con raíz** es un árbol en el que se distingue un vértice especial llamado **raíz** ($r$), a partir del cual se establece una jerarquía de niveles: todo vértice tiene un único camino desde la raíz hasta él.
 
 ### 12.3 Terminología
@@ -1282,6 +1344,7 @@ Estas tres condiciones son **equivalentes** entre sí (cualquiera de ellas, junt
 
 Árbol con raíz $R$: $R$ tiene hijos $A$ y $B$; $A$ tiene hijos $C$ y $D$; $B$ tiene hijo $E$; $C$, $D$ y $E$ son hojas.
 
+> [!TIP]
 > 📌 **Figura sugerida:** Árbol con raíz R, dos hijos (A, B), donde A tiene hijos C y D, y B tiene hijo E.
 
 | Nodo | Padre | Hijos | Nivel | Altura del subárbol | ¿Es hoja? |
@@ -1297,10 +1360,11 @@ Estas tres condiciones son **equivalentes** entre sí (cualquiera de ellas, junt
 
 ---
 
-## 13. Clasificación de los Árboles
+## 13. 🍃 Clasificación de los Árboles
 
 ### 13.1 Árbol binario
 
+> [!NOTE]
 > **Definición.** Un **árbol binario** es un árbol con raíz en el que cada nodo tiene **como máximo dos hijos**, distinguidos habitualmente como **hijo izquierdo** e **hijo derecho**.
 
 **Subtipos relevantes:**
@@ -1311,18 +1375,21 @@ Estas tres condiciones son **equivalentes** entre sí (cualquiera de ellas, junt
 
 ### 13.2 Árbol k-ario
 
+> [!NOTE]
 > **Definición.** Generalización del árbol binario donde cada nodo puede tener **hasta $k$ hijos**. Un árbol binario es, por tanto, el caso particular $k=2$.
 
 Los árboles k-arios son la base estructural de los **árboles B** (usados en bases de datos) y de estructuras como los **tries** (árboles de prefijos, donde $k$ corresponde al tamaño del alfabeto).
 
 ### 13.3 Árbol etiquetado
 
+> [!NOTE]
 > **Definición.** Árbol en el que cada nodo (y/o arista) porta información adicional asociada, llamada **etiqueta**, que puede ser un valor numérico, una cadena de texto, o cualquier tipo de dato relevante al dominio del problema.
 
 Ejemplo: un **árbol de expresión** es un árbol etiquetado donde los nodos internos contienen operadores y las hojas contienen operandos.
 
 ### 13.4 Árbol regular
 
+> [!NOTE]
 > **Definición.** Un árbol **k-regular** (o simplemente "regular") es aquel en el que **todos los nodos internos tienen exactamente $k$ hijos**. Es un caso más estricto que el árbol k-ario general, en el que el número de hijos puede variar entre 0 y $k$.
 
 ### 13.5 Tabla comparativa
@@ -1338,7 +1405,7 @@ Ejemplo: un **árbol de expresión** es un árbol etiquetado donde los nodos int
 
 ---
 
-## 14. Recorridos en Árboles
+## 14. 🧭 Recorridos en Árboles
 
 Los recorridos en árboles son casos particulares de los recorridos en grafos, adaptados a la estructura jerárquica. Se dividen en recorridos **en profundidad** (preorden, inorden, postorden) y **en anchura** (BFS por niveles).
 
@@ -1455,10 +1522,11 @@ Todos los recorridos anteriores tienen complejidad **temporal $O(n)$** y **compl
 
 ---
 
-## 15. Árboles Especiales
+## 15. ⚖️ Árboles Especiales
 
 ### 15.1 Árbol Binario de Búsqueda (BST)
 
+> [!NOTE]
 > **Definición.** Un **BST** es un árbol binario en el que, para todo nodo $v$: todos los valores del subárbol izquierdo son **menores** que el valor de $v$, y todos los valores del subárbol derecho son **mayores** (asumiendo valores únicos).
 
 **Operaciones y complejidad:**
@@ -1475,18 +1543,21 @@ El **peor caso** ($O(n)$) ocurre cuando el árbol se degenera en una lista (por 
 
 ### 15.2 Árbol AVL
 
+> [!NOTE]
 > **Definición.** Un **árbol AVL** (Adelson-Velsky y Landis, 1962) es un BST **auto-balanceado** en el que, para cada nodo, la diferencia de alturas entre su subárbol izquierdo y derecho (**factor de equilibrio**) es como máximo 1:
 
 $$|\text{altura}(\text{izq}) - \text{altura}(\text{der})| \leq 1$$
 
 **Mecanismo:** tras cada inserción o eliminación, si el factor de equilibrio de algún nodo se rompe, se aplican **rotaciones** (simples o dobles: izquierda, derecha, izquierda-derecha, derecha-izquierda) para restaurar el balance.
 
+> [!TIP]
 > 📌 **Figura sugerida:** Árbol AVL desbalanceado antes y después de aplicar una rotación simple a la derecha.
 
 **Complejidad garantizada:** al mantenerse siempre balanceado, la altura se mantiene en $O(\log n)$, por lo que **todas** las operaciones (búsqueda, inserción, eliminación) son $O(\log n)$ en el **peor caso**, a diferencia del BST simple.
 
 ### 15.3 Árbol Rojo-Negro
 
+> [!NOTE]
 > **Definición.** Es un BST auto-balanceado donde cada nodo tiene un color (**rojo** o **negro**), y se cumplen cinco propiedades estructurales que garantizan que el camino más largo desde la raíz hasta una hoja nunca sea más del doble del camino más corto:
 > 1. Todo nodo es rojo o negro.
 > 2. La raíz es negra.
@@ -1498,12 +1569,14 @@ $$|\text{altura}(\text{izq}) - \text{altura}(\text{der})| \leq 1$$
 
 ### 15.4 Árbol B
 
+> [!NOTE]
 > **Definición.** Un **árbol B** de orden $m$ es un árbol de búsqueda **balanceado y k-ario**, diseñado específicamente para minimizar accesos a **memoria secundaria** (disco). Cada nodo puede almacenar múltiples claves (hasta $m-1$) y tener hasta $m$ hijos, manteniendo todos los nodos hoja al **mismo nivel**.
 
 **Motivación:** en sistemas de bases de datos, cada acceso a disco es costoso; al almacenar múltiples claves por nodo, se reduce drásticamente la **altura** del árbol y, por tanto, el número de accesos a disco necesarios para localizar un dato.
 
 ### 15.5 Árbol B+
 
+> [!NOTE]
 > **Definición.** Variante del árbol B en la que **todos los datos reales se almacenan únicamente en las hojas**, mientras que los nodos internos solo contienen claves de guía para la navegación. Además, las hojas se enlazan entre sí mediante punteros, formando una **lista enlazada** que permite recorridos secuenciales eficientes.
 
 **Diferencia clave con B:** en un árbol B, los datos pueden estar en cualquier nodo (interno o hoja); en un árbol B+, solo están en las hojas, lo cual optimiza tanto la búsqueda por clave exacta como las consultas por **rango** (muy comunes en bases de datos SQL, por ejemplo `WHERE fecha BETWEEN X AND Y`).
@@ -1520,16 +1593,18 @@ $$|\text{altura}(\text{izq}) - \text{altura}(\text{der})| \leq 1$$
 
 ---
 
-## 16. Árboles Aplicados
+## 16. 🧠 Árboles Aplicados
 
 ### 16.1 Árboles de decisión
 
+> [!NOTE]
 > **Definición.** Estructura en la que cada nodo interno representa una **pregunta o condición** sobre un atributo, cada rama representa el resultado posible de esa condición, y cada hoja representa una **decisión o clasificación final**.
 
 **Aplicación en Inteligencia Artificial y Machine Learning:** los árboles de decisión son uno de los algoritmos de clasificación y regresión más interpretables en aprendizaje supervisado (algoritmos como ID3, C4.5, CART). Son además la base de métodos de conjunto (*ensemble*) más avanzados como **Random Forest** y **Gradient Boosting**, ampliamente usados en la industria por su balance entre precisión e interpretabilidad.
 
 ### 16.2 Árboles de expresión
 
+> [!NOTE]
 > **Definición.** Árbol binario (generalmente) donde los nodos hoja son **operandos** y los nodos internos son **operadores**, representando una expresión aritmética o lógica de forma estructurada.
 
 **Ejemplo:** la expresión $(3 + 4) \times 2$ se representa como:
@@ -1558,7 +1633,7 @@ Igualmente desarrollado en la Sección 5: es el árbol de expansión de **costo 
 
 ---
 
-## 17. Representación de Árboles
+## 17. 🗃️ Representación de Árboles
 
 ### 17.1 Representación mediante nodos enlazados (punteros)
 
@@ -1614,7 +1689,7 @@ Para fines de documentación y comunicación (como en este mismo documento), los
 
 ---
 
-## 18. Aplicaciones de los Árboles
+## 18. 🚀 Aplicaciones de los Árboles
 
 Los árboles son, junto con los grafos generales, una de las estructuras de datos más utilizadas en la práctica profesional de la computación, precisamente por su capacidad de modelar jerarquías con eficiencia logarítmica.
 
@@ -1633,3 +1708,16 @@ Los árboles son, junto con los grafos generales, una de las estructuras de dato
 
 > Los árboles constituyen, en definitiva, el puente natural entre la teoría abstracta de grafos y las estructuras de datos que sostienen la infraestructura computacional moderna: desde el sistema de archivos de cualquier computadora hasta los algoritmos de aprendizaje automático más avanzados, su presencia es constante y su comprensión resulta indispensable para todo profesional de la computación.
 
+---
+
+<div align="center">
+
+### 🕸️🌳 Fin de la Unidad 3 🌳🕸️
+
+![Grafos](https://img.shields.io/badge/Grafos-11%20temas-2ea44f?style=flat-square&logo=diagramsdotnet&logoColor=white)
+![Árboles](https://img.shields.io/badge/Árboles-7%20temas-1f6feb?style=flat-square&logo=git&logoColor=white)
+![Algoritmos](https://img.shields.io/badge/Algoritmos-BFS%20·%20DFS%20·%20Dijkstra%20·%20Prim%20·%20Kruskal%20·%20AVL-8250df?style=flat-square)
+
+*Documento generado en Markdown, optimizado para su visualización en GitHub.* 🧮📘
+
+</div>
