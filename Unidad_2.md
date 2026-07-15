@@ -82,7 +82,7 @@ El álgebra de Boole es la base matemática detrás del diseño de circuitos dig
 
 ---
  
-## 📁 Anexos: Aprendizaje Práctico Experimental (APE)
+## 📁 Anexos: Aprendizaje Durante Toda La Unidad 
 
 A continuación se presentan los enlaces a las actividades prácticas desarrolladas.  
 Todos los archivos se encuentran alojados en el repositorio de **Google Drive** de la asignatura:
