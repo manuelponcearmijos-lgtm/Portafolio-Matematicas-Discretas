@@ -3,7 +3,7 @@
 ---
  <h2>📘 1. Resumen Teórico</h2>
 
-<p>✍️ <i>Elaborado por el estudiante</i></p>
+<p>✍️ <i>Elaborado por el estudiante</i></p> 
 
 <details>
 <summary><b>🔹 Definición de proposición</b></summary>
