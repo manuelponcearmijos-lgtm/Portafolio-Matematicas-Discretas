@@ -90,7 +90,7 @@ Todos los archivos se encuentran alojados en el repositorio de **Google Drive** 
  | 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
 |-----------------------------|--------------------------|
 | 🧠 ACD (Aprendizaje Colaborativo y Dirigido) | 📎 Repositorio ACD |
-| 🔬 APE (Aprendizaje Práctico Experimental) | 📎 Carpeta APE https://drive.google.com/drive/folders/1gAqTEbOsfxQ0P-rRtMIZEBRdedxNPmRw?usp=sharing |  
+| 🔬 APE (Aprendizaje Práctico Experimental) |  [📁 Acceder a Drive](https://drive.google.com/drive/folders/1gAqTEbOsfxQ0P-rRtMIZEBRdedxNPmRw?usp=sharing) ||  
 | 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
 | 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
 
