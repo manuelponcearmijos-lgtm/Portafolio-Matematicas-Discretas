@@ -660,4 +660,13 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 
 *Documento generado en Markdown, optimizado para su visualización en GitHub.* 🧮📘
 
-</div>
+</div> 
+
+| 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
+|-----------------------------|--------------------------|
+| 🧠 ACD (Aprendizaje Colaborativo y Dirigido) | 📎 Repositorio ACD |
+| 🔬 APE (Aprendizaje Práctico Experimental) | 📎 Carpeta APE |
+| 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
+| 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
+| 🗂️ Portafolio General | 📎 Documentos y anexos |
+
