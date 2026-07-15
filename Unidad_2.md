@@ -87,7 +87,10 @@ El álgebra de Boole es la base matemática detrás del diseño de circuitos dig
 A continuación se presentan los enlaces a las actividades prácticas desarrolladas.  
 Todos los archivos se encuentran alojados en el repositorio de **Google Drive** de la asignatura:
 
-| 🧩 **Actividad** | 📘 **Recurso** | 🔗 **Enlace Directo** |
-|------------------|----------------|------------------------|
-| 📂 Carpeta General | Todos los APE (1 al 5) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1gAqTEbOsfxQ0P-rRtMIZEBRdedxNPmRw?usp=sharing) |
+ | 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
+|-----------------------------|--------------------------|
+| 🧠 ACD (Aprendizaje Colaborativo y Dirigido) | 📎 Repositorio ACD |
+| 🔬 APE (Aprendizaje Práctico Experimental) | 📎 Carpeta APE |
+| 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
+| 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
 
