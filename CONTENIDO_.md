@@ -44,6 +44,16 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 <details>
 <summary><b>📂 Unidad 3: Los árboles y grafos son estructuras que permiten organizar y conectar datos para resolver problemas de búsqueda, rutas y relaciones dentro de la computación. </b></summary>
 
+ ### 🤩 Temas y Evidencias
+- **🔗 GRAFOS:**
+- 🌐 **Caminos mínimos:**
+- ⚛️ **Topológico:**
+- **🌳 ÁRBOLES:**
+-  🧱 **Árboles balanceados:**
+- 🔧 **Árboles B:**
+- ⚙️ **Segment/Fenwick:**
+- ⚡ **Recorridos:**
+
 [![Acceder a Unidad 3](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Unidad_3.md)
 </details>
 
