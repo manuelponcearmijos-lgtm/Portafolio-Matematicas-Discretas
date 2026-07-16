@@ -66,6 +66,10 @@ Una vez simplificada la expresión booleana, esta se traduce directamente en un 
 
 La cantidad de compuertas y de entradas necesarias depende directamente del nivel de simplificación alcanzado previamente: una expresión bien simplificada se traduce en un circuito con menos compuertas, menor retardo de propagación y menor costo de fabricación.
 
+## CASO APLICADO 
+
+**<strong><a href="caso_aplicado.md">📝 CASO-APLICADO</a></strong>**
+
 ## 4. 🔍 Reflexión Personal
 
 ## 🤔¿Qué fue lo más difícil de entender?
