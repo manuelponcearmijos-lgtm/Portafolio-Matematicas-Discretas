@@ -664,9 +664,9 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 
 | 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
 |-----------------------------|--------------------------|
-| 🧠 ACD (Aprendizaje Colaborativo y Dirigido) | 📎 Repositorio ACD |
-| 🔬 APE (Aprendizaje Práctico Experimental) | 📎 Carpeta APE |
-| 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
-| 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
+| 🧠 ACD (Aprendizaje Colaborativo y Dirigido) | [📁 Acceder a Drive](https://drive.google.com/file/d/1-if9Ulx7OeDWjs2jNdLfvAn7tqJf2BWO/view?usp=sharing) |
+| 🔬 APE (Aprendizaje Práctico Experimental) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1W3Piys2T-zfyRHWo2XWVwfUspBHFP-LJ?usp=sharing)| 
+| 📚 AA (Aprendizaje Autónomo) | [📁 Acceder a Drive](https://drive.google.com/file/d/1FxP6gOBNezExYqUP_R9NIsjg0xuVX0X0/view?usp=sharing) |  
+| 💡 ABP (Aprendizaje Basado en Problemas) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/176oZPwfO982mWRZfHlCIrcoYgzdGtgSU?usp=sharing ) | 
 
 
