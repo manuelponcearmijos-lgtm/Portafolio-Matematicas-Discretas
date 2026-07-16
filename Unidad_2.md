@@ -89,10 +89,10 @@ Todos los archivos se encuentran alojados en el repositorio de **Google Drive** 
 
  | 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
 |-----------------------------|--------------------------|
-| 🧠 ACD (Aprendizaje Colaborativo y Dirigido) | 📎 Repositorio ACD |
+| 🧠 ACD (Aprendizaje Colaborativo y Dirigido) |  [📁 Acceder a Drive](https://drive.google.com/file/d/1BvS87DnjIUJ3B3WwjSApAoqpt5kKhcdq/view?usp=sharing) |
 | 🔬 APE (Aprendizaje Práctico Experimental) |  [📁 Acceder a Drive](https://drive.google.com/drive/folders/1gAqTEbOsfxQ0P-rRtMIZEBRdedxNPmRw?usp=sharing) ||  
-| 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
-| 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
+| 📚 AA (Aprendizaje Autónomo) |  [📁 Acceder a Drive](https://drive.google.com/file/d/1IElpV4o4iEOb3gueYZmp5fxt7eON5-IQ/view?usp=drive_link) |
+| 💡 ABP (Aprendizaje Basado en Problemas) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1h8vgZPKE6Q1L8gLqw2_W1EPTikHJ6o7f?usp=sharing)  |  
 
 <p align="center">
   <a href="./CONTENIDO_.md">
