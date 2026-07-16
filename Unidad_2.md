@@ -94,3 +94,9 @@ Todos los archivos se encuentran alojados en el repositorio de **Google Drive** 
 | 📚 AA (Aprendizaje Autónomo) | 📎 Recursos AA |
 | 💡 ABP (Aprendizaje Basado en Problemas) | 📎 Material ABP |
 
+<p align="center">
+  <a href="./CONTENIDO_.md">
+    <img src="https://img.shields.io/badge/📂%20ACCEDER%20A%20PORTADA%20-ff6600?style=for-the-badge&logo=github&logoColor=white" alt="Acceso Unidad 1">
+  </a>
+</p>
+
