@@ -18,10 +18,10 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 <details>
 <summary><b>📂 Unidad 1: Lógica Proposicional y Tablas de Verdad</b></summary>
 
-### Temas y Evidencias
-* **Reglas de inferencia:** Aplicación en deducciones formales.
-* **Tablas de verdad:** Construcción y análisis de proposiciones.
-* **Compuertas lógicas:** Representación de operaciones booleanas.
+### 🤔 Temas y Evidencias
+* 😁**Reglas de inferencia:** Aplicación en deducciones formales.
+* 😇**Tablas de verdad:** Construcción y análisis de proposiciones.
+* 🤓**Compuertas lógicas:** Representación de operaciones booleanas.
 
 [![Acceder a Unidad 1](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_1-CLICK%20AQUÍ-0078D4?style=for-the-badge&logo=github&logoColor=white)](Unidad_1.md)
 </details>
@@ -29,20 +29,20 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 <details>
 <summary><b>📂 Unidad 2: Aprendizaje del álgebra booleana comprensión teórica, desarrollo de ejercicios y aplicación práctica</b></summary>
   
-  ### Temas y Evidencias
-- **Propiedades del Álgebra de Boole:**
-- **Teoremas del Álgebra de Boole:**
-- **Simplificación de expresiones booleanas:**
-- **Formas canónicas:**
-- **Mapas de Karnaugh (K-Map):**
-- **Método algebraico de simplificación:**
-- **Implementación con compuertas lógicas:**
+  ### 🤩 Temas y Evidencias
+- 🧩 **Propiedades del Álgebra de Boole:**
+- 🌐 **Teoremas del Álgebra de Boole:**
+- ⚛️ **Simplificación de expresiones booleanas:**
+- 🎨 **Formas canónicas:**
+-  🧱 **Mapas de Karnaugh (K-Map):**
+- 🔧 **Método algebraico de simplificación:**
+- ⚙️ **Implementación con compuertas lógicas:**
 
 [![Acceder a Unidad 2](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_2-CLICK%20AQUÍ-ff6600?style=for-the-badge&logo=github&logoColor=white)](./Unidad_2.md)
 </details>
 
 <details>
-<summary><b>📂 Unidad 3: Combinatoria y Grafos</b></summary>
+<summary><b>📂 Unidad 3: Grafos y árboles s</b></summary>
 
 *Contenido en desarrollo conforme avance el periodo académico.*
 
