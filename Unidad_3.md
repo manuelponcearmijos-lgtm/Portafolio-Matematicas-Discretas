@@ -652,16 +652,6 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 
 <div align="center">
 
-### 🕸️🌳 Fin de la Unidad 3 🌳🕸️
-
-![Grafos](https://img.shields.io/badge/Grafos-11%20temas-2ea44f?style=flat-square&logo=diagramsdotnet&logoColor=white)
-![Árboles](https://img.shields.io/badge/Árboles-7%20temas-1f6feb?style=flat-square&logo=git&logoColor=white)
-![Algoritmos](https://img.shields.io/badge/Algoritmos-BFS%20·%20DFS%20·%20Dijkstra%20·%20Prim%20·%20Kruskal%20·%20AVL-8250df?style=flat-square)
-
-*Documento generado en Markdown, optimizado para su visualización en GitHub.* 🧮📘
-
-</div> 
-
 | 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
 |-----------------------------|--------------------------|
 | 🧠 ACD 1 (Aprendizaje Colaborativo y Dirigido) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1OIAAFNrXSBlm-JzfsS6wX7v3u5F9vytO?usp=sharing) |
@@ -671,4 +661,12 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 | 📚 AA 2 (Aprendizaje Autónomo) | [📁 Acceder a Drive](https://drive.google.com/file/d/1FxP6gOBNezExYqUP_R9NIsjg0xuVX0X0/view?usp=sharing) |  
 | 💡 ABP (Aprendizaje Basado en Problemas) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/176oZPwfO982mWRZfHlCIrcoYgzdGtgSU?usp=sharing ) | 
 
+### 🕸️🌳 Fin de la Unidad 3 🌳🕸️
 
+![Grafos](https://img.shields.io/badge/Grafos-11%20temas-2ea44f?style=flat-square&logo=diagramsdotnet&logoColor=white)
+![Árboles](https://img.shields.io/badge/Árboles-7%20temas-1f6feb?style=flat-square&logo=git&logoColor=white)
+![Algoritmos](https://img.shields.io/badge/Algoritmos-BFS%20·%20DFS%20·%20Dijkstra%20·%20Prim%20·%20Kruskal%20·%20AVL-8250df?style=flat-square)
+
+*Documento generado en Markdown, optimizado para su visualización en GitHub.* 🧮📘
+
+</div> 
