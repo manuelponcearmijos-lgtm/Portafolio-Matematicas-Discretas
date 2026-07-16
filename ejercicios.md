@@ -125,3 +125,5 @@
 | 1 | 1 | 1 |    1    |     1     |
 
 **Conclusión:** ambas expresiones son lógicamente equivalentes, validando que el argumento de diseño del sistema de alerta es correcto: la alarma se activa únicamente cuando hay temperatura alta combinada con al menos una condición de riesgo adicional.
+
+**<strong><a href="Unidad_2.md">🏠 INICIO</a></strong>**
