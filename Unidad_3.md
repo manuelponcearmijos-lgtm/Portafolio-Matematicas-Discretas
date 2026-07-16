@@ -670,3 +670,8 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 *Documento generado en Markdown, optimizado para su visualización en GitHub.* 🧮📘
 
 </div> 
+<p align="center">
+  <a href="./CONTENIDO_.md">
+    <img src="https://img.shields.io/badge/📂%20ACCEDER%20A%20LA-PORTADA%20-ff6600?style=for-the-badge&logo=github&logoColor=white" alt="Acceso Unidad 1">
+  </a>
+</p>
