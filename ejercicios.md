@@ -81,7 +81,7 @@
 | **AB'**  |  1  |  1  | 1  |  1  |
 
 **Procedimiento:**
-1. Se identifican dos grupos de 8 celdas adyacentes: uno cubre toda la fila `A'B'` y `AB'` en las cuatro columnas.
+1. Se identifican dos grupos de 8 celdas adyacentes: uno cubre toda la fila `A'B'` y `AB'` en las cuatro columnas. 
 2. Ambos grupos comparten que la variable `B` vale 0 en todas sus celdas, mientras que `A`, `C` y `D` varían libremente dentro del grupo.
 3. Al variar libremente, `A`, `C` y `D` se eliminan de la expresión, dejando únicamente el literal que permanece constante en el grupo: `B'`.
 
