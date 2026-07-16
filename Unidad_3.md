@@ -43,7 +43,7 @@
 
 Un **grafo** modela relaciones binarias entre elementos: puntos (vértices) unidos por líneas (aristas). Cualquier sistema de relaciones —amistades, rutas, dependencias— puede representarse así.
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Un grafo es un par $G=(V,E)$, donde $V$ es un conjunto finito de **vértices** y $E$ es un conjunto de **aristas** que relacionan pares de vértices. Si es **no dirigido**, cada arista es $\{u,v\}$; si es **dirigido**, es un par ordenado $(u,v)$.
 
 Notación: $|V|=n$ (orden), $|E|=m$ (tamaño).
@@ -123,7 +123,7 @@ En un grafo completo: $|E| = \binom{n}{2} = \frac{n(n-1)}{2}$. En dirigidos, la 
 
 ### Lista de adyacencia
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Cada vértice almacena la lista de sus vecinos: $\text{Adj}: V \rightarrow \mathcal{P}(V)$.
 
 ```text
@@ -215,7 +215,7 @@ Se obtiene ejecutando BFS/DFS desde cada vértice no visitado; cada ejecución c
 
 ### Orden Topológico
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Ordenación lineal de los vértices de un **DAG** tal que, para toda arista $(u,v)$, $u$ aparece antes que $v$. Solo existe si el grafo es acíclico.
 
 ```text
@@ -237,7 +237,7 @@ Fin
 
 ## 5. 🌲 Árboles de Expansión Mínima (MST)
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Dado $G=(V,E,w)$ conexo y ponderado, un **árbol de expansión** incluye todos los vértices con $|V|-1$ aristas, sin ciclos. El **MST** es el de menor peso total posible.
 
 **Propiedades:** si los pesos son distintos, el MST es único. La **propiedad de corte** (la arista mínima que cruza cualquier partición pertenece a algún MST) fundamenta los algoritmos de Prim y Kruskal.
@@ -381,10 +381,10 @@ Fin
 
 ## 7. 🔁 Caminos y Ciclos Especiales
 
-> [!NOTE]
+> [!NOTA]
 > **Euleriano:** recorrido que usa **cada arista** exactamente una vez. **Hamiltoniano:** recorrido que visita **cada vértice** exactamente una vez. Ambos pueden ser *camino* (abierto) o *ciclo* (cerrado).
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > 🏆 **Teorema de Euler:** existe ciclo euleriano ⟺ todos los vértices tienen grado par. Existe camino euleriano (no cíclico) ⟺ exactamente **dos** vértices de grado impar.
 
 Origen histórico: los **Siete Puentes de Königsberg** (Euler, 1736), inicio formal de la Teoría de Grafos.
@@ -409,7 +409,7 @@ A diferencia del caso euleriano, **no existe condición eficiente general** para
 > [!NOTE]
 > **Red de flujo:** grafo dirigido con capacidades $c(u,v)$, una fuente $s$ y un sumidero $t$. Un **flujo** respeta $0\le f(u,v)\le c(u,v)$ y conserva flujo en cada vértice intermedio.
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > 🏆 **Teorema Max-Flow Min-Cut:** el flujo máximo de $s$ a $t$ equivale a la capacidad del **corte mínimo** de la red.
 
 ### Ford-Fulkerson
@@ -440,7 +440,7 @@ Especialización que elige el camino de aumento **más corto** vía BFS → comp
 
 ## 9. 🎨 Coloreo de Grafos
 
-> [!NOTE]
+> [!NOTA]
 > **Definición.** Asignar colores a los vértices de modo que **ningún par adyacente** comparta color. El **número cromático** $\chi(G)$ es el mínimo de colores necesarios.
 
 - $\chi(G)=2$ ⟺ grafo bipartito con al menos una arista.
@@ -467,7 +467,7 @@ Fin
 
 ## 10. 🌉 Puentes y Puntos de Articulación
 
-> [!NOTE]
+> [!NOTA]
 > **Puente:** arista cuya eliminación aumenta el número de componentes conexas. **Punto de articulación:** vértice con la misma propiedad.
 
 Se detectan con **DFS**, calculando $\text{disc}[u]$ (tiempo de descubrimiento) y $\text{low}[u]$ (menor tiempo alcanzable vía retroceso). Una arista $(u,v)$ es puente si $\text{low}[v]>\text{disc}[u]$; un vértice no raíz es articulación si $\text{low}[v]\ge\text{disc}[u]$ para algún hijo $v$ (la raíz lo es si tiene ≥2 hijos).
@@ -579,7 +579,7 @@ Fin
 
 ## 15. ⚖️ Árboles Especiales
 
-> [!NOTE]
+> [!NOTA]
 > **BST:** para todo nodo, subárbol izquierdo < nodo < subárbol derecho. Búsqueda/inserción/eliminación: $O(\log n)$ promedio, **$O(n)$ peor caso** (degenera en lista si se insertan datos ordenados sin balanceo).
 
 **AVL:** BST auto-balanceado; para cada nodo, $|\text{altura(izq)}-\text{altura(der)}|\le1$. Usa **rotaciones** tras cada inserción/eliminación para mantener el balance → garantiza $O(\log n)$ en el **peor caso**.
