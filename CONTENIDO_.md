@@ -69,7 +69,15 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 ---
 
 ## 🏁 Conclusiones Generales
-> *Este portafolio refleja la integración de la lógica matemática con la programación, fortaleciendo las bases para el razonamiento formal y el diseño de algoritmos.*
+ 
+A lo largo de la asignatura de **Matemáticas Discretas** adquirí conocimientos fundamentales que fortalecieron mi formación como estudiante de Computación. Durante la primera unidad comprendí la importancia de la lógica proposicional, las tablas de verdad y las reglas de inferencia para analizar, demostrar y validar razonamientos de manera correcta, habilidades que son esenciales para el desarrollo de algoritmos y la programación.
+
+En la segunda unidad aprendí sobre las operaciones booleanas, los teoremas y reglas de simplificación, los mapas de Karnaugh, las expresiones SOP y POS, y las compuertas lógicas. Estos temas me permitieron entender cómo se diseñan y optimizan los circuitos digitales, además de desarrollar la capacidad de simplificar expresiones lógicas para obtener soluciones más eficientes, lo que representa una base importante para la arquitectura de computadores y los sistemas digitales.
+
+Finalmente, en la tercera unidad estudié los grafos y los árboles, comprendiendo sus diferentes tipos, propiedades y aplicaciones en el área de la informática. También conocí algoritmos y estructuras que permiten representar relaciones entre datos, optimizar rutas, organizar información y resolver problemas complejos presentes en redes, bases de datos, inteligencia artificial y desarrollo de software.
+
+En conclusión, considero que las Matemáticas Discretas constituyen una de las bases más importantes de la carrera de Computación, ya que proporcionan el razonamiento lógico, las herramientas matemáticas y las estructuras necesarias para comprender el funcionamiento de los sistemas informáticos y desarrollar soluciones eficientes a problemas reales. Los conocimientos adquiridos durante estas tres unidades fortalecieron mi pensamiento analítico, mi capacidad para resolver problemas y mi preparación para asignaturas más avanzadas relacionadas con la programación, las estructuras de datos, los algoritmos y la inteligencia artificial.
+
 
 ---
 
