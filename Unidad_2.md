@@ -68,7 +68,10 @@ La cantidad de compuertas y de entradas necesarias depende directamente del nive
 
 ## CASO APLICADO 
 
-**<strong><a href="caso_aplicado.md">📝 CASO-APLICADO</a></strong>**
+**<strong><a href="caso_aplicado.md">📝 CASO APLICADO 📡</a></strong>**
+
+
+**<strong><a href="ejercicios.md">📝 EJERCICIOS ⚡</a></strong>**
 
 ## 4. 🔍 Reflexión Personal
 
