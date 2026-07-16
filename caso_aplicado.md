@@ -46,3 +46,5 @@ La simplificación demuestra que, sin importar cómo se redactó originalmente l
 ## Conclusión
 
 Este caso demuestra que el álgebra de Boole no es un ejercicio abstracto: permite tomar una política de seguridad redactada en lenguaje natural, formalizarla, verificarla mediante una tabla de verdad y optimizar directamente el hardware que la implementa.
+
+**<strong><a href="Unidad_2.md">🏠 INICIO</a></strong>**
