@@ -96,7 +96,7 @@ Todos los archivos se encuentran alojados en el repositorio de **Google Drive** 
 
 <p align="center">
   <a href="./CONTENIDO_.md">
-    <img src="https://img.shields.io/badge/📂%20ACCEDER%20A%20PORTADA%20-ff6600?style=for-the-badge&logo=github&logoColor=white" alt="Acceso Unidad 1">
+    <img src="https://img.shields.io/badge/📂%20ACCEDER%20A%20LA-PORTADA%20-ff6600?style=for-the-badge&logo=github&logoColor=white" alt="Acceso Unidad 1">
   </a>
 </p>
 
