@@ -12,7 +12,7 @@
 
 </div>
 
-> [!NOTA]
+> [!NOTE]
 > 💡 **Enfoque del documento:** fundamentos teóricos, algoritmos, representación computacional y aplicaciones reales en Ciencias de la Computación, con pseudocódigo y ejemplos resueltos de forma concisa.
 
 <div align="center">
@@ -43,7 +43,7 @@
 
 Un **grafo** modela relaciones binarias entre elementos: puntos (vértices) unidos por líneas (aristas). Cualquier sistema de relaciones —amistades, rutas, dependencias— puede representarse así.
 
-> [!NOTA]
+> [!NOTE]
 > **Definición.** Un grafo es un par $G=(V,E)$, donde $V$ es un conjunto finito de **vértices** y $E$ es un conjunto de **aristas** que relacionan pares de vértices. Si es **no dirigido**, cada arista es $\{u,v\}$; si es **dirigido**, es un par ordenado $(u,v)$.
 
 Notación: $|V|=n$ (orden), $|E|=m$ (tamaño).
@@ -60,7 +60,7 @@ Notación: $|V|=n$ (orden), $|E|=m$ (tamaño).
 | Aristas paralelas | Varias aristas entre el mismo par de vértices |
 | Subgrafo | $G'=(V',E')$ con $V'\subseteq V$, $E'\subseteq E$ |
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > 🏆 **Lema del apretón de manos:** $\sum_{v\in V}\deg(v) = 2|E|$. Consecuencia: todo grafo no dirigido tiene un número **par** de vértices de grado impar.
 
 **Ejemplo:** $V=\{A,B,C,D,E\}$, $E=\{AB,AC,BC,CD,DE\}$. Grados: A=2, B=2, C=3, D=2, E=1 → suma=10=2(5) ✅.
@@ -215,7 +215,7 @@ Se obtiene ejecutando BFS/DFS desde cada vértice no visitado; cada ejecución c
 
 ### Orden Topológico
 
-> [!NOTA]
+> [!NOTE]
 > **Definición.** Ordenación lineal de los vértices de un **DAG** tal que, para toda arista $(u,v)$, $u$ aparece antes que $v$. Solo existe si el grafo es acíclico.
 
 ```text
@@ -237,7 +237,7 @@ Fin
 
 ## 5. 🌲 Árboles de Expansión Mínima (MST)
 
-> [!NOTA]
+> [!NOTE]
 > **Definición.** Dado $G=(V,E,w)$ conexo y ponderado, un **árbol de expansión** incluye todos los vértices con $|V|-1$ aristas, sin ciclos. El **MST** es el de menor peso total posible.
 
 **Propiedades:** si los pesos son distintos, el MST es único. La **propiedad de corte** (la arista mínima que cruza cualquier partición pertenece a algún MST) fundamenta los algoritmos de Prim y Kruskal.
@@ -381,7 +381,7 @@ Fin
 
 ## 7. 🔁 Caminos y Ciclos Especiales
 
-> [!NOTA]
+> [!NOTE]
 > **Euleriano:** recorrido que usa **cada arista** exactamente una vez. **Hamiltoniano:** recorrido que visita **cada vértice** exactamente una vez. Ambos pueden ser *camino* (abierto) o *ciclo* (cerrado).
 
 > [!IMPORTANTE]
@@ -409,7 +409,7 @@ A diferencia del caso euleriano, **no existe condición eficiente general** para
 > [!NOTE]
 > **Red de flujo:** grafo dirigido con capacidades $c(u,v)$, una fuente $s$ y un sumidero $t$. Un **flujo** respeta $0\le f(u,v)\le c(u,v)$ y conserva flujo en cada vértice intermedio.
 
-> [!IMPORTANTE]
+> [!IMPORTANT ]
 > 🏆 **Teorema Max-Flow Min-Cut:** el flujo máximo de $s$ a $t$ equivale a la capacidad del **corte mínimo** de la red.
 
 ### Ford-Fulkerson
@@ -440,7 +440,7 @@ Especialización que elige el camino de aumento **más corto** vía BFS → comp
 
 ## 9. 🎨 Coloreo de Grafos
 
-> [!NOTA]
+> [!NOTE]
 > **Definición.** Asignar colores a los vértices de modo que **ningún par adyacente** comparta color. El **número cromático** $\chi(G)$ es el mínimo de colores necesarios.
 
 - $\chi(G)=2$ ⟺ grafo bipartito con al menos una arista.
@@ -467,7 +467,7 @@ Fin
 
 ## 10. 🌉 Puentes y Puntos de Articulación
 
-> [!NOTA]
+> [!NOTE]
 > **Puente:** arista cuya eliminación aumenta el número de componentes conexas. **Punto de articulación:** vértice con la misma propiedad.
 
 Se detectan con **DFS**, calculando $\text{disc}[u]$ (tiempo de descubrimiento) y $\text{low}[u]$ (menor tiempo alcanzable vía retroceso). Una arista $(u,v)$ es puente si $\text{low}[v]>\text{disc}[u]$; un vértice no raíz es articulación si $\text{low}[v]\ge\text{disc}[u]$ para algún hijo $v$ (la raíz lo es si tiene ≥2 hijos).
@@ -579,7 +579,7 @@ Fin
 
 ## 15. ⚖️ Árboles Especiales
 
-> [!NOTA]
+> [!NOTE]
 > **BST:** para todo nodo, subárbol izquierdo < nodo < subárbol derecho. Búsqueda/inserción/eliminación: $O(\log n)$ promedio, **$O(n)$ peor caso** (degenera en lista si se insertan datos ordenados sin balanceo).
 
 **AVL:** BST auto-balanceado; para cada nodo, $|\text{altura(izq)}-\text{altura(der)}|\le1$. Usa **rotaciones** tras cada inserción/eliminación para mantener el balance → garantiza $O(\log n)$ en el **peor caso**.
