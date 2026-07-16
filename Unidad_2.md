@@ -1,5 +1,6 @@
 
-# 🕸️🌳 Unidad 2 — "El Álgebra Booleana". 🌳🕸️
+# 🕸️ 🧊 Unidad 2 — "El Álgebra Booleana". 💻 🕸️
+ 
 
 # 📘 Resumen Teórico — Álgebra de Boole
 
