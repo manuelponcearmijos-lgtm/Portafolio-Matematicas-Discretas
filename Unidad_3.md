@@ -12,7 +12,7 @@
 
 </div>
 
-> [!NOTE]
+> [!NOTA]
 > 💡 **Enfoque del documento:** fundamentos teóricos, algoritmos, representación computacional y aplicaciones reales en Ciencias de la Computación, con pseudocódigo y ejemplos resueltos de forma concisa.
 
 <div align="center">
@@ -60,7 +60,7 @@ Notación: $|V|=n$ (orden), $|E|=m$ (tamaño).
 | Aristas paralelas | Varias aristas entre el mismo par de vértices |
 | Subgrafo | $G'=(V',E')$ con $V'\subseteq V$, $E'\subseteq E$ |
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > 🏆 **Lema del apretón de manos:** $\sum_{v\in V}\deg(v) = 2|E|$. Consecuencia: todo grafo no dirigido tiene un número **par** de vértices de grado impar.
 
 **Ejemplo:** $V=\{A,B,C,D,E\}$, $E=\{AB,AC,BC,CD,DE\}$. Grados: A=2, B=2, C=3, D=2, E=1 → suma=10=2(5) ✅.
