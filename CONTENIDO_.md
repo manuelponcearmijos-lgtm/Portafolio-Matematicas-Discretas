@@ -56,16 +56,6 @@ Este portafolio digital compila el progreso académico en la asignatura de **Mat
 
 [![Acceder a Unidad 3](https://img.shields.io/badge/ACCEDER%20A%20LA%20UNIDAD_3-CLICK%20AQUÍ-7434eb?style=for-the-badge&logo=github&logoColor=white)](./Unidad_3.md)
 </details>
-
-  ### 🤩 Temas y Evidencias
-- **🔗 GRAFOS:**
-- 🌐 **Caminos mínimos:**
-- ⚛️ **Topológico:**
-- **🌳 ÁRBOLES:**
--  🧱 **Árboles balanceados:**
-- 🔧 **Árboles B:**
-- ⚙️ **Segment/Fenwick:**
-- ⚡ **Recorridos:**
 ---
 
 ## 🛠️ Herramientas y Ecosistema
