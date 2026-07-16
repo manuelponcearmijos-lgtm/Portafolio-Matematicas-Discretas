@@ -91,12 +91,31 @@ En conclusión, considero que las Matemáticas Discretas constituyen una de las 
 
 [3] Free Software Foundation, *Manual de referencia de GCC*, 2024. Disponible en: https://gcc.gnu.org/onlinedocs/  
  
-
 [4] R. Dorf y J. Svoboda, Introduction to Electric Circuits, 9th ed., Wiley, Hoboken, 2021.
 
 [5] F. J. Sánchez y G. Mata, “Aplicación didáctica de las leyes de Kirchhoff en la enseñanza de circuitos básicos,” Revista Educación en Ingeniería, vol. 16, no. 2, pp. 45–52, 2022.
 
 [6] IEEE, IEEE Standard for Electrical and Electronic Diagrams (Including Logic Diagrams), IEEE Std 91-2021, New York, 2021.
+
+[7] M. Morris Mano and M. D. Ciletti, Digital Design, 6th ed. New York, NY, USA: Pearson, 2018.
+
+[8] T. L. Floyd, Digital Fundamentals, 11th ed. Upper Saddle River, NJ, USA: Pearson, 2015.
+
+[9] C. H. Roth Jr. and L. L. Kinney, Fundamentals of Logic Design, 7th ed. Stamford, CT, USA: Cengage Learning, 2014.
+
+[10] M. Morris Mano and C. R. Kime, Logic and Computer Design Fundamentals, 5th ed. Boston, MA, USA: Pearson, 2016.
+
+[11] N. Balabanian and B. Carlson, Digital Logic Design Principles, Hoboken, NJ, USA: John Wiley & Sons, 2001.
+
+[12] K. H. Rosen, Discrete Mathematics and Its Applications, 8th ed. New York, NY, USA: McGraw-Hill Education, 2019.
+
+[13] S. Lipschutz and M. Lipson, Schaum's Outline of Discrete Mathematics, 4th ed. New York, NY, USA: McGraw-Hill Education, 2017.
+
+[14] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to Algorithms, 4th ed. Cambridge, MA, USA: MIT Press, 2022.
+
+[15] R. Sedgewick and K. Wayne, Algorithms, 4th ed. Boston, MA, USA: Addison-Wesley, 2011.
+
+[16] D. B. West, Introduction to Graph Theory, 2nd ed. Upper Saddle River, NJ, USA: Pearson, 2001.
 </details>
 ---
  <details>
