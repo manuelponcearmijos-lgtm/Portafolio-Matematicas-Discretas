@@ -652,7 +652,7 @@ Inorden → infija $(3+4)\times2$; Preorden → prefija $\times+34\ 2$; Postorde
 
 <div align="center">
 
-| 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
+ | 🧩 **Actividad / Proyecto** | 📁 **Recurso / Enlace** |
 |-----------------------------|--------------------------|
 | 🧠 ACD 1 (Aprendizaje Colaborativo y Dirigido) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1OIAAFNrXSBlm-JzfsS6wX7v3u5F9vytO?usp=sharing) |
 | 🧠 ACD 2 (Aprendizaje Colaborativo y Dirigido) | [📁 Acceder a Drive](https://drive.google.com/drive/folders/1a3RlurOn2coBMBXGospr6fYwmGs0Tjjl?usp=sharing) |
