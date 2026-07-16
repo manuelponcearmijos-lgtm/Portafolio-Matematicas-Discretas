@@ -1,3 +1,6 @@
+
+# 🕸️🌳 Unidad 2 — "El Álgebra Booleana". 🌳🕸️
+
 # 📘 Resumen Teórico — Álgebra de Boole
 
 ## 1. 🧠Propiedades del Álgebra de Boole
